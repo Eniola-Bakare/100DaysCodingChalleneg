@@ -63,6 +63,8 @@ function showError (input, message){
         inputArray.forEach(input =>{
             if(input.value.trim() === ''){
                 showError(input, `${getField(input)} is required`)
+            }else{
+                showSuccess(input)
             }
         })
     }
