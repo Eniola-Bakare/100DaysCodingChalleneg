@@ -95,5 +95,8 @@ function showError (input, message){
         checkLength (username, 3, 15)
         checkLength (password, 6, 25)
         checkPasswordsMatch (password, password2)
-
+        username = ''
+        email = ''
+        password = ''
+        password2 =''
     })
